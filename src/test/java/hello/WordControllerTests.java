@@ -73,10 +73,12 @@ public class WordControllerTests {
     public void testFiveNegativeAnagrams() throws Exception {
       //  List<String> words = Arrays.asList("abcd", "five", "eleven", "pizza", "eved");
         /*
-        Above list always anagramOfPalindrome is true there are not palindrome return false,
-         anagramOfPalindrome return true but expected value is false, this test not past
-         1- we will chance palindrome words
-         2- chance expect value will be true
+        Above list always anagramOfPalindrome is true because there are not palindrome,
+         but expected value is false, this test not past
+         1- chance palindrome words
+         or
+         2- chance expect value  true
+         then past
          */
         List<String> words = Arrays.asList("abxba", "kak", "kayak", "sos", "non");
 
